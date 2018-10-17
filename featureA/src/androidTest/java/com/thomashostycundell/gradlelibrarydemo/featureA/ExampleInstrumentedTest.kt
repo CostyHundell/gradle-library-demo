@@ -1,4 +1,4 @@
-package com.eisterhues_media_2.gradlelibrarydemo.featureA
+package com.thomashostycundell.gradlelibrarydemo.featureA
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

@@ -6,7 +6,7 @@ android {
 
 
     defaultConfig {
-        applicationId "com.eisterhues_media_2.gradlelibrarydemo.app"
+        applicationId "com.thomashostycundell.gradlelibrarydemo.app"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1

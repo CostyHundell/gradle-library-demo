@@ -1,4 +1,4 @@
-package com.eisterhues_media_2.mylibrary
+package com.thomashostycundell.mylibrary
 
 import android.content.Context
 import android.graphics.drawable.Drawable

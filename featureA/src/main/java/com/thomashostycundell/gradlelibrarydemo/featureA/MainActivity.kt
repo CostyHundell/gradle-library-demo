@@ -1,8 +1,8 @@
-package com.eisterhues_media_2.gradlelibrarydemo.featureA
+package com.thomashostycundell.gradlelibrarydemo.featureA
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import com.eisterhues_media_2.mylibrary.ImageManager
+import com.thomashostycundell.mylibrary.ImageManager
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
