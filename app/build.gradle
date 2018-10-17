@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    
+
+
+    defaultConfig {
+        applicationId "com.eisterhues_media_2.gradlelibrarydemo.app"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        missingDimensionStrategy 'library', 'pro'
+    }
+
+    buildTypes {
+       release {
+           minifyEnabled false
+           proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+       }
+    }
+
+    flavorDimensions 'country'
+    productFlavors {
+        eng {
+            dimension 'country'
+        }
+        us {
+            dimension 'country'
+        }
+        zh {
+            dimension 'country'
+        }
+    }
+
+}
+
+dependencies {
+    implementation project(':featureA')
+    implementation project(':base')
+}

@@ -1,0 +1,26 @@
+apply plugin: 'com.android.instantapp'
+
+android {
+
+    defaultConfig {
+        missingDimensionStrategy 'library', 'free'
+    }
+
+    flavorDimensions 'country'
+    productFlavors {
+        eng {
+            dimension 'country'
+        }
+        us {
+            dimension 'country'
+        }
+        zh {
+            dimension 'country'
+        }
+    }
+}
+
+dependencies {
+    implementation project(':featureA')
+    implementation project(':base')
+}
